@@ -8,7 +8,7 @@ class IndecisionApp extends React.Component {
         this.handleDeleteOption = this.handleDeleteOption.bind(this);
 
         this.state = {
-            options: props.options
+            options: []
         }
     }
 
@@ -26,7 +26,7 @@ class IndecisionApp extends React.Component {
         }
     }
 
-    // When updated test
+    // When updated
     componentDidUpdate(prevProps, prevState) {
         // accessible
         // prevProps, prevState 
@@ -100,9 +100,6 @@ class IndecisionApp extends React.Component {
     }
 }
 
-IndecisionApp.defaultProps = {
-    options: []
-}
 
 const Header = (props) => {
     return (
