@@ -47,7 +47,7 @@ var IndecisionApp = function (_React$Component) {
             }
         }
 
-        // When updated
+        // When updated test
 
     }, {
         key: 'componentDidUpdate',

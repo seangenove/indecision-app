@@ -26,7 +26,7 @@ class IndecisionApp extends React.Component {
         }
     }
 
-    // When updated
+    // When updated test
     componentDidUpdate(prevProps, prevState) {
         // accessible
         // prevProps, prevState 
