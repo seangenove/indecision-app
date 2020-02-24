@@ -18,6 +18,12 @@
     margin: 0;
 }
 
+.author__subtitle {
+    font-size: $s-size;
+    font-weight: 500;
+    margin: 0;
+}
+
 @media (min-width : $desktop-breakpoint) {
     .header {
         margin-bottom: $xl-size;
